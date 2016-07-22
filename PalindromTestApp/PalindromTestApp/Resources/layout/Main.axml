@@ -7,13 +7,8 @@
         android:id="@+id/container"
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-       <!-- android:background="@drawable/winter"-->
-      <SeekBar
-               android:layout_width="fill_parent"
-               android:layout_height="fill_parent"
-               android:id="@+id/seekBar1"
-               android:max="100" />
+        android:layout_height="fill_parent"
+        android:background="@drawable/winter">
         <TextView
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="match_parent"
@@ -24,11 +19,6 @@
             android:textColor="#E74C3C"
             android:gravity="center_horizontal"
             android:background="#F2F6F8"/>
-      <ImageView
-            android:id="@+id/container"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/winter"/>
       <TextView
             android:text="Enter the word or number:"
             android:textColor="#F1C40F"
