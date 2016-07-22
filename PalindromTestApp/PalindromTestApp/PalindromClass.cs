@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace PalindromTestApp
 {
-   partial class PalindromClass
+ public class PalindromClass
     {
         public static bool Palindromtest(string str)
         {

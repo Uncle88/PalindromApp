@@ -7,43 +7,56 @@
         android:id="@+id/container"
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/winter">
+        android:layout_height="fill_parent">
+       <!-- android:background="@drawable/winter"-->
+      <SeekBar
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:id="@+id/seekBar1"
+               android:max="100" />
         <TextView
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="match_parent"
-            android:layout_height="80.0dp"
+            android:layout_height="60.0dp"
             android:id="@+id/textView1"
-            android:layout_marginBottom="15dp"
             android:layout_marginTop="15dp"
             android:text="It checks whether the word is a palindrome"
             android:textColor="#E74C3C"
-            android:gravity="center_horizontal" />
-        <TextView
-            android:text="Enter the world :"
+            android:gravity="center_horizontal"
+            android:background="#F2F6F8"/>
+      <ImageView
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/winter"/>
+      <TextView
+            android:text="Enter the word or number:"
             android:textColor="#F1C40F"
             android:gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
-            android:layout_marginBottom="15dp" />
-        <TextView
-            android:text="World="
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textSize="25dip"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:id="@+id/Arg"
-            android:layout_marginLeft="15dp" />
+            android:background="#F2F6F2"
+            android:layout_marginBottom="15dp" 
+            android:layout_marginTop="15dp"/>
         <EditText
             android:id="@+id/edittext"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#FAE5D3" />
+            android:layout_height="50dip"
+            android:background="#FAE5D3" 
+            android:textColor="#070600"
+            android:textSize="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"/>
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="PalindromTest" />
+            android:text="TEST"
+            android:textSize="20dip"
+            android:id="@+id/MyButton"
+            android:textColor="#0E0E0E"
+             android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"/>
     </LinearLayout>
 </ScrollView>
