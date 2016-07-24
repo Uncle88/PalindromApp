@@ -19,13 +19,13 @@
             android:text="It checks whether the word is a palindrome"
             android:textColor="#F7FF07"
             android:gravity="center_horizontal"
-            android:background="#80F2F6F8"
+            android:background="@drawable/rounded"
             android:layout_marginLeft="15dip"
             android:layout_marginRight="15dip"
             android:shadowColor="#14F71E"
             android:shadowDx="2"
             android:shadowDy="2"
-            android:shadowRadius="5"/>
+            android:shadowRadius="5"/>  <!-- 80F2F6F8 -->
      <blink xmlns:android="http://schemas.android.com/apk/res/android"
            android:layout_width="fill_parent"
            android:layout_height="fill_parent"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
-            android:background="#80F2F6F2"
+            android:background="@drawable/rounded"
             android:layout_marginBottom="35dp"
             android:layout_marginTop="35dp"
             android:shadowColor="#ff0000"
@@ -50,7 +50,7 @@
             android:id="@+id/edittext"
             android:layout_width="fill_parent"
             android:layout_height="50dip"
-            android:background="#FAE5D3" 
+            android:background="@drawable/rounded" 
             android:textColor="#070600"
             android:textSize="40dip"
             android:layout_marginLeft="10dip"
@@ -65,7 +65,7 @@
             android:textColor="#0E0E0E"
             android:layout_marginBottom="35dp"
             android:layout_marginTop="35dp"
-            android:background="#54B4E3"
+            android:background="@drawable/button_rounded"
              android:layout_marginLeft="75dip"
             android:layout_marginRight="75dip" />
     </LinearLayout>
