@@ -33,6 +33,19 @@ namespace PalindromTestApp
 
             string toast = string.Format(" {0} ", PalindromClass.Palindromtest(a));
             Toast.MakeText(this, toast, ToastLength.Long).Show();
+
+         //   if (MyEditText.Text !=null)
+         //   {
+         //   string toast = string.Format(" {0} ", PalindromClass.Palindromtest(a));
+         //   Toast.MakeText(this, toast, ToastLength.Long).Show();
+         //   }
+          
+         //else
+         //   {
+         //       string toast1 = string.Format(" {0} ", "You did not enter a word(number)");
+         //       Toast.MakeText(this, toast1 , ToastLength.Long).Show();
+         //       return;
+         //   }
         }
 
         protected override void OnStop()
