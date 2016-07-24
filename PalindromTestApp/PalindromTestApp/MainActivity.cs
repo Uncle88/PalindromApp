@@ -11,7 +11,7 @@ using Android.Renderscripts;
 
 namespace PalindromTestApp
 {
-    [Activity(Label = "Palindrom", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Palindrom", MainLauncher = true, Icon = "@drawable/imag")]
     public class MainActivity : Activity
     {
 

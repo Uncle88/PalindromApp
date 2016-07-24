@@ -44,7 +44,7 @@
             android:shadowDx="2"
             android:shadowDy="2"
             android:shadowRadius="5"
-             android:layout_marginLeft="30dip"/>
+            android:layout_marginLeft="30dip"/>
       </blink>
         <EditText
             android:id="@+id/edittext"
@@ -54,7 +54,8 @@
             android:textColor="#070600"
             android:textSize="40dip"
             android:layout_marginLeft="10dip"
-            android:layout_marginRight="10dip"/>
+            android:layout_marginRight="10dip"
+            android:ems="10"/>
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
