@@ -8,7 +8,8 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@drawable/winter" >
+        android:background="@drawable/winter"
+       android:gravity="center_horizontal">
        
         <TextView
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -17,23 +18,29 @@
             android:id="@+id/textView1"
             android:layout_marginTop="35dp"
             android:text="It checks whether the word is a palindrome"
-            android:textColor="#E74C3C"
+            android:textColor="#F7FF07"
             android:gravity="center_horizontal"
             android:background="#80F2F6F8"
             android:layout_marginLeft="15dip"
-            android:layout_marginRight="15dip"/>
+            android:layout_marginRight="15dip"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"/>
       <TextView
             android:text="Enter the word or number:"
-            android:textColor="#F1C40F"
-            android:gravity="center_horizontal"
-            android:layout_centerHorizontal="true"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
             android:background="#80F2F6F2"
             android:layout_marginBottom="35dp"
-            android:layout_marginTop="35dp"/>
+            android:layout_marginTop="35dp"
+            android:shadowColor="#ff0000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"/>
         <EditText
             android:id="@+id/edittext"
             android:layout_width="fill_parent"
