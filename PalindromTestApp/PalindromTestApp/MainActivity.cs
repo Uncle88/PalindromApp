@@ -14,7 +14,7 @@ namespace PalindromTestApp
     [Activity(Label = "Palindrom", MainLauncher = true, Icon = "@drawable/imag")]
     public class MainActivity : Activity
     {
-
+ 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
