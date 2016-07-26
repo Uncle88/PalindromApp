@@ -17,7 +17,7 @@
             android:id="@+id/textView1"
             android:layout_marginTop="35dp"
             android:text="It checks whether the word is a palindrome"
-            android:textColor="#F7FF07"
+            android:textColor="#D30040"
             android:gravity="center_horizontal"
             android:background="@drawable/rounded"
             android:layout_marginLeft="15dip"
@@ -26,36 +26,39 @@
             android:shadowDx="2"
             android:shadowDy="2"
             android:shadowRadius="5"/>  <!-- 80F2F6F8 -->
-     <blink xmlns:android="http://schemas.android.com/apk/res/android"
+   <!-- <blink xmlns:android="http://schemas.android.com/apk/res/android"
            android:layout_width="fill_parent"
            android:layout_height="fill_parent"
-           android:gravity="center_horizontal">
-      <TextView
+           android:gravity="center_horizontal">  </blink>--> 
+   <!--   <TextView
             android:text="Enter the word or number:"
             android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
-            android:background="@drawable/rounded"
+            android:background="@drawable/rounded2"
             android:layout_marginBottom="35dp"
             android:layout_marginTop="35dp"
             android:shadowColor="#ff0000"
             android:shadowDx="2"
             android:shadowDy="2"
-            android:shadowRadius="5"
-            android:layout_marginLeft="30dip"/>
-      </blink>
+            android:shadowRadius="5" />-->
         <EditText
             android:id="@+id/edittext"
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
             android:layout_height="50dip"
-            android:background="@drawable/rounded" 
+            android:background="@drawable/rounded3" 
             android:textColor="#070600"
             android:textSize="40dip"
             android:layout_marginLeft="10dip"
             android:layout_marginRight="10dip"
-            android:ems="10"/>
+             android:layout_marginTop="50dp"
+            android:ems="15"
+            android:hint="Enter the word"/>
+          <!-- android:alpha="0.5"--> 
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
