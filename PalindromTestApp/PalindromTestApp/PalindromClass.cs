@@ -16,7 +16,7 @@ namespace PalindromTestApp
     {
         public static bool Palindromtest(string str)
         {
-            if (str != "")
+            if (! string.IsNullOrEmpty(str))
             {
                 for (int i = 0, j = str.Length - 1; i < j; i++, j--)
 
