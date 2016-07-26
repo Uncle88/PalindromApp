@@ -60,6 +60,7 @@
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
             android:text="Check"
+            android:textStyle="bold"
             android:textSize="20dip"
             android:id="@+id/MyButton"
             android:textColor="#0E0E0E"
