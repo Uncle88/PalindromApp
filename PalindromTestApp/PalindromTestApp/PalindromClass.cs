@@ -14,7 +14,7 @@ namespace PalindromTestApp
 {
  public class PalindromClass
     {
-        public static bool Palindromtest(string str)
+        public static bool IsPalindromOrNo(string str)
         {
             if (! string.IsNullOrEmpty(str))
             {
