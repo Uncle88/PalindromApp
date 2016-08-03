@@ -11,9 +11,10 @@ using Android.Renderscripts;
 
 namespace PalindromTestApp
 {
-    [Activity(Label = "Palindrom", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Palindrom", MainLauncher = true, Icon = "@drawable/imag")]
     public class MainActivity : Activity
     {
+        private Button _button;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -22,24 +23,23 @@ namespace PalindromTestApp
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
-            button.Click += OnButtonClicked;
+            _button = FindViewById<Button>(Resource.Id.MyButton);
+            _button.Click += OnButtonClicked;
         }
 
         private void OnButtonClicked(object sender, EventArgs e)
         {
             EditText MyEditText = FindViewById<EditText>(Resource.Id.edittext);
-            string a = MyEditText.Text;
+            string enteredText = MyEditText.Text;
 
-            string toast = string.Format(" {0} ", PalindromClass.Palindromtest(a));
-            Toast.MakeText(this, toast, ToastLength.Long).Show();
+            string palindromCheckResult = PalindromClass.IsStringPalindrom(enteredText).ToString();
+            Toast.MakeText(this, palindromCheckResult, ToastLength.Long).Show();
         }
 
         protected override void OnStop()
         {
-            Button button = FindViewById<Button>(Resource.Id.MyButton);//dich'
             base.OnStop();
-            button.Click -= OnButtonClicked;
+            _button.Click -= OnButtonClicked;
         }
     }
 }
