@@ -14,20 +14,19 @@ namespace PalindromTestApp
 {
  public class PalindromClass
     {
-        public static bool IsPalindromOrNo(string str)
+        public static bool IsStringPalindrom(string value)
         {
-            if (! string.IsNullOrEmpty(str))
-            {
-                for (int i = 0, j = str.Length - 1; i < j; i++, j--)
-
-                    if (str[i] != str[j])
-                        return false;
-                return true;
-            }
-            else
+            if (string.IsNullOrEmpty(value))
             {
               return false;
             }
+
+            for (int i = 0, j = value.Length - 1; i < j; i++, j--)
+            {
+                if (value[i] != value[j])
+                    return false;
+            }
+            return true;
         }
     }
 }

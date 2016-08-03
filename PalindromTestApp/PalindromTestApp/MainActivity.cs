@@ -32,7 +32,7 @@ namespace PalindromTestApp
             EditText MyEditText = FindViewById<EditText>(Resource.Id.edittext);
             string enteredText = MyEditText.Text;
 
-            string palindromCheckResult = PalindromClass.Palindromtest(enteredText).ToString();
+            string palindromCheckResult = PalindromClass.IsStringPalindrom(enteredText).ToString();
             Toast.MakeText(this, palindromCheckResult, ToastLength.Long).Show();
         }
 
